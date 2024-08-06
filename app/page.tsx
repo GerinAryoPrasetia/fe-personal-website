@@ -1,4 +1,13 @@
-import { FaExternalLinkAlt } from "react-icons/fa";
+import {
+  FaExternalLinkAlt,
+  FaGithub,
+  FaLinkedin,
+  FaMailBulk,
+  FaMailchimp,
+  FaVoicemail,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { MdOutlineMail, MdOutlineMailLock } from "react-icons/md";
 export default function Home() {
   return (
     <main className="max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto px-2">
@@ -21,6 +30,7 @@ export default function Home() {
             and I now have more than 2 year of professional work experience.
           </p>
         </section>
+        {/* ABOUT ME SECTION */}
         {/* WORK EXPERIENCES SECTION */}
         <section className="mb-7">
           <h2 className="text-xl font-bold mb-2">Work Experiences</h2>
@@ -75,6 +85,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* WORK EXPERIENCES SECTION */}
         {/* SIDE PROJECTS SECTION */}
         <section>
           <h2 className="text-xl font-bold mb-2">Side Projects</h2>
@@ -101,6 +112,60 @@ export default function Home() {
                 Laravel | React | Scratch
               </p>
             </div>
+          </div>
+        </section>
+        {/* SIDE PROJECTS SECTION */}
+        {/* ARTICLE SECTION */}
+        <section>
+          <h2 className="text-xl font-bold mb-2">Articles</h2>
+          <div className="mb-7">
+            <h3 className="font-bold">
+              Tax Expenses - <span className="font-light">Project</span>
+            </h3>
+            <p className="text-sm">
+              How do i create my side project using Golang and Typescript
+            </p>
+            <p className="text-sm font-light italic">Tuesday, 15 Mar 2024</p>
+          </div>
+        </section>
+        {/* ARTICLE SECTION */}
+        {/* CONTACT SECTION */}
+        <div></div>
+        {/* CONTACT SECTION */}
+        <section className="mb-7">
+          <h2 className="text-xl font-bold mb-2">Let's Connect!</h2>
+          <div className="flex items-center mb-2">
+            <FaGithub className="mr-2" />
+            <p className="mr-2">github.com/GerinAryoPrasetia</p>
+            <a
+              href="https://github.com/GerinAryoPrasetia"
+              className="text-white"
+              target="_blank"
+            >
+              <FaExternalLinkAlt />
+            </a>
+          </div>
+          <div className="flex items-center mb-2">
+            <MdOutlineMail className="mr-2" />
+            <p className="mr-2">g.aryoprasetia@gmail.com</p>
+            <a
+              href="https://github.com/GerinAryoPrasetia"
+              className="text-white"
+              target="_blank"
+            >
+              <FaExternalLinkAlt />
+            </a>
+          </div>
+          <div className="flex items-center mb-2">
+            <FaLinkedin className="mr-2" />
+            <p className="mr-2">linkedin.com/GerinAryoPrasetia</p>
+            <a
+              href="https://linkedin.com/GerinAryoPrasetia"
+              className="text-white"
+              target="_blank"
+            >
+              <FaExternalLinkAlt />
+            </a>
           </div>
         </section>
       </div>
