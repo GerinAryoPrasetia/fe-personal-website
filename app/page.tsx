@@ -1,13 +1,5 @@
-import {
-  FaExternalLinkAlt,
-  FaGithub,
-  FaLinkedin,
-  FaMailBulk,
-  FaMailchimp,
-  FaVoicemail,
-  FaWhatsapp,
-} from "react-icons/fa";
-import { MdOutlineMail, MdOutlineMailLock } from "react-icons/md";
+import { FaExternalLinkAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 export default function Home() {
   return (
     <main className="max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto px-2">
