@@ -1,9 +1,10 @@
 import { FaExternalLinkAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
+
 export default function Home() {
   return (
     <main className="max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto px-2">
-      <div className="mt-8 p-4">
+      <div className="mt-4 p-4">
         <img src="/gerin.svg" alt="" className="m-auto mb-2" />
         <div className="text-center">
           <h1 className="text-2xl font-bold">Hello World, I'm Gerin!</h1>
@@ -109,7 +110,7 @@ export default function Home() {
         {/* SIDE PROJECTS SECTION */}
         {/* ARTICLE SECTION */}
         <section>
-          <h2 className="text-xl font-bold mb-2">Articles</h2>
+          <h2 className="text-xl font-bold mb-2">Blog</h2>
           <div className="mb-7">
             <h3 className="font-bold">
               Tax Expenses - <span className="font-light">Project</span>
