@@ -9,6 +9,12 @@ export default function NavLinks() {
     <nav className="mt-8">
       <div className="flex justify-center items-center w-full">
         <Link
+          href="/"
+          className={`link mr-2 ${pathname === "/" ? "active font-bold" : ""}`}
+        >
+          Home
+        </Link>
+        <Link
           href="/blog"
           className={`link mr-2 ${
             pathname === "/blog" ? "active font-bold" : ""
